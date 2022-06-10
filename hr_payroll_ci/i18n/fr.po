@@ -1,0 +1,689 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_payroll_ci
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-15 08:10+0000\n"
+"PO-Revision-Date: 2021-03-15 09:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_line__amount
+msgid "Amount"
+msgstr "Montant"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.hr_payslip_ci_form_view
+msgid "Ancienneté"
+msgstr "Ancienneté"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Ancienneté <br/>"
+msgstr "Ancienneté <br/>"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.hr_payslip_ci_form_view
+msgid "Ans-"
+msgstr "Ans-"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Au:"
+msgstr "Au :"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_autres
+msgid "Autres"
+msgstr "Autres"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_o_total
+msgid "Autres Totaux"
+msgstr "Autres Totaux"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_arete
+msgid "Autres retenues"
+msgstr ""
+"Autres R\n"
+"etenues"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "BULLETIN DE PAIE"
+msgstr "BULLETIN DE PAIE"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__base_daily
+msgid "Base journalière"
+msgstr "Base journalière"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_basic
+msgid "Basic"
+msgstr "De base"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__brut_total
+msgid "Brut Total"
+msgstr "Brut Total"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__brut_imposable
+msgid "Brut imposable"
+msgstr "Brut imposable"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse_line__inverse_id
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.hr_payslip_ci_form_view
+msgid "Calcul inverse"
+msgstr "Calcul inverse"
+
+#. module: hr_payroll_ci
+#: model:ir.actions.act_window,name:hr_payroll_ci.action_hr_payroll_calcul_inverse_form_view
+msgid "Calcul inverse de la paie"
+msgstr "Calcul inverse de la paie"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.hr_payslip_ci_pyaroll_inverse_form_view
+msgid "Calculer le bulletin"
+msgstr "Calculer le bulletin"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.hr_payslip_ci_pyaroll_inverse_form_view
+msgid "Calucul inverse"
+msgstr "Calcul inverse"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Catégorie:"
+msgstr "Catégorie :"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_salary_rule__child_ids
+msgid "Child Salary Rule"
+msgstr "Règle de salaire des enfants"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.hr_payslip_ci_pyaroll_inverse_form_view
+msgid "Choisir la variable de calcul"
+msgstr "Choisir la variable de calcul"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields.selection,name:hr_payroll_ci.selection__hr_payslip__payment_method__cheque
+msgid "Chèques"
+msgstr "Chèques"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input__code
+msgid "Code"
+msgstr "Code"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_comp
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_cpatr
+msgid "Cotisations Patronales"
+msgstr "Cotisations Patronales"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_total
+msgid "Cout total pour l'entreprise"
+msgstr "Cout total pour l'entreprise"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse_line__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse__create_date
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse_line__create_date
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__cumul_cn
+msgid "Cumul CN payé"
+msgstr "Cumul CN payé"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__cumul_igr
+msgid "Cumul IGR payé"
+msgstr "Cumul IGR payé"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__cumul_base_impot
+msgid "Cumul base impôt"
+msgstr "Cumul base impôt"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__cumul_worked_days
+msgid "Cumul jours travaillés"
+msgstr "Cumul jours travaillés"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_line__date_from
+msgid "Date From"
+msgstr "Dater de"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_line__date_to
+msgid "Date To"
+msgstr "Date à"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Date d'embauche <br/>"
+msgstr "Date d'embauche <br/>"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__department_id
+msgid "Departement"
+msgstr "Département"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__last_payslip
+msgid "Dernier bulletin"
+msgstr "Dernier bulletin"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input__name
+msgid "Description"
+msgstr "Description"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_leave__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse_line__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_structure__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_structure_type__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_line__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_worked_days__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_salary_rule__display_name
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_res_company__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Département:"
+msgstr "Département :"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Emploi occupé:"
+msgstr "Emploi occupé :"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_employee
+msgid "Employee"
+msgstr "Employé"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields.selection,name:hr_payroll_ci.selection__hr_payslip__payment_method__espece
+msgid "Espèces"
+msgstr "Espèces"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_hsupp
+msgid "Heures supplémentaires"
+msgstr "Heures supplémentaires"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Horaire<span/>"
+msgstr "Horaire<span/>"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_employee__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_leave__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse_line__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_structure__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_structure_type__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_line__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_worked_days__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_salary_rule__id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_imp_emp
+msgid "Impôts employeurs"
+msgstr "Impôts employeurs"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_indm
+msgid "Indemnite"
+msgstr "Indemnité"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_indmni
+msgid "Indemnite Non Imposable"
+msgstr "Indemnité Non Imposable"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_salary_rule__input_ids
+msgid "Inputs"
+msgstr "Entrées"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields.selection,name:hr_payroll_ci.selection__hr_payslip__option_salaire__jour
+msgid "Journalier"
+msgstr "Journalier"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_jrs
+msgid "Jours"
+msgstr "Jours"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_unpay
+msgid "Jours impayés"
+msgstr "Jours impayés"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_jpay
+msgid "Jours payés"
+msgstr "Jours payés"
+
+#. module: hr_payroll_ci
+#: code:addons/hr_payroll_ci/models/hr_payroll_ci.py:0
+#, python-format
+msgid "L'employé possède déjà un bulletin pour cette période"
+msgstr "L'employé possède déjà un bulletin pour cette période"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_employee____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_leave____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse_line____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_structure____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_structure_type____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_line____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_worked_days____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_salary_rule____last_update
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_res_company____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse_line__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse__write_date
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse_line__write_date
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse__line_ids
+msgid "Lignes"
+msgstr "Lignes"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Logo"
+msgstr "Logo"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Matricule <br/>"
+msgstr "Matricule <br/>"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields.selection,name:hr_payroll_ci.selection__hr_payslip__option_salaire__mois
+msgid "Mensuel"
+msgstr "Mensuel"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.hr_payslip_ci_form_view
+msgid "Mois"
+msgstr "Mois"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse__montant
+msgid "Montant "
+msgstr "Montant "
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__payment_method
+msgid "Moyens de paiement"
+msgstr "Moyens de paiement"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse__type_calcul
+msgid "Méthode de calcul"
+msgstr "Méthode de calcul"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__nature_employe
+msgid "Nature de l'employé"
+msgstr "Nature de l'employé"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Nbre de Parts <br/>"
+msgstr "Nbre de Parts <br/>"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_net
+msgid "Net"
+msgstr "Net"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_c_imp
+msgid "Net Imposable"
+msgstr "Net Imposable"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__net_paie
+msgid "Net Paie"
+msgstr "Net Paie"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Niveau <br/>"
+msgstr "Niveau <br/>"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__payslip_an_anciennete
+msgid "Nombre d'année"
+msgstr "Nombre d'année"
+
+#. module: hr_payroll_ci
+#: code:addons/hr_payroll_ci/models/hr_employee.py:0
+#, python-format
+msgid "Nombre de jours travaillés"
+msgstr "Nombre de jours travaillés"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__number_of_month
+msgid "Nombre de mois"
+msgstr "Nombre de mois"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__payslip_mois_anciennete
+msgid "Nombre de mois(Ancienneté)"
+msgstr "Nombre de mois (Ancienneté)"
+
+#. module: hr_payroll_ci
+#: code:addons/hr_payroll_ci/models/hr_employee.py:0
+#, python-format
+msgid "Normal Working Days paid at 100%"
+msgstr "Jours ouvrables normaux payés à 100%"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_res_company__num_cnps
+msgid "Numéro CNPS"
+msgstr "Numéro CNPS"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_res_company__num_contribuable
+msgid "Numéro Contribuable"
+msgstr "Numéro Contribuable"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "N° Sécurité Sociale <br/>"
+msgstr "N° Sécurité Sociale <br/>N° Sécurité Sociale <br/>"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__option_salaire
+msgid "Option salaire"
+msgstr "Option salaire"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Paiement le :"
+msgstr "Paiement le :"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields.selection,name:hr_payroll_ci.selection__hr_payroll_inverse__type_calcul__brut
+msgid "Par le brut"
+msgstr "Par le brut"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields.selection,name:hr_payroll_ci.selection__hr_payroll_inverse__type_calcul__net
+msgid "Par le net"
+msgstr "Par le net"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_structure__parent_id
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_structure_type__parent_id
+msgid "Parent"
+msgstr "Parent"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_salary_rule__parent_rule_id
+msgid "Parent Salary Rule"
+msgstr "Règle de salaire des parents"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_payslip
+msgid "Pay Slip"
+msgstr "Feuille de paie"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_payslip_worked_days
+msgid "Payslip Worked Days"
+msgstr "Bulletin de paie jours travaillés"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid ""
+"Pour vous aider à faire valoir vos droits, conservez ce bulletin sans "
+"limite de durée."
+msgstr ""
+"Pour vous aider à faire valoir vos droits, conservez ce bulletin sans "
+"limite de durée."
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_prim
+msgid "Primes"
+msgstr "Primes"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Période du:"
+msgstr "Période du :"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "Qualification:"
+msgstr "Qualification :"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_line__quantity
+msgid "Quantity"
+msgstr "Quantité"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_line__rate
+msgid "Rate (%)"
+msgstr "Taux (%)"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__reference_reglement
+msgid "Reférence"
+msgstr "Référence"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_rann
+msgid "Retenues annexes"
+msgstr "Retenues annexes"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_ret_emp
+msgid "Retenues employés"
+msgstr "Retenues employés"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payroll_inverse_line__rule_id
+msgid "Règle salariale"
+msgstr "Règle salariale"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_brut
+msgid "Salaire Brut"
+msgstr "Salaire Brut"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_base
+msgid "Salaire de base"
+msgstr "Salaire de base"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_salary_rule
+msgid "Salary Rule"
+msgstr "Règles salariales"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_rule_input
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_rule_input__input_id
+msgid "Salary Rule Input"
+msgstr "Entrée de règle de salaire"
+
+#. module: hr_payroll_ci
+#: code:addons/hr_payroll_ci/models/hr_payroll_ci.py:0
+#, python-format
+msgid "Salary Slip of %s for %s"
+msgstr "Bulletin de salaire de % s pour % s"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_payroll_structure
+msgid "Salary Structure"
+msgstr "Structure salariale"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_sursa
+msgid "Sursalaire"
+msgstr "Sursalaire"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_worked_days__rate
+msgid "Taux"
+msgstr "Taux"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,help:hr_payroll_ci.field_hr_rule_input__code
+msgid "The code that can be used in the salary rules"
+msgstr "Le code utilisable dans les règles salariales"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_leave
+msgid "Time Off"
+msgstr "Congés"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip_line__total
+msgid "Total"
+msgstr "Total"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_salc
+msgid "Total Charges Salariales"
+msgstr "Total Charges Salariales"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_tret
+msgid "Total Cotisations Rétraite"
+msgstr "Total Cotisations Rétraite"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__total_gain
+msgid "Total Gain"
+msgstr "Total Gain"
+
+#. module: hr_payroll_ci
+#: model:hr.salary.rule.category,name:hr_payroll_ci.cat_retenue
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__total_retenues
+msgid "Total Retenues"
+msgstr "Total Retenues"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__worked_days
+msgid "Total jours travaillés"
+msgstr "Total jours travaillés"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields,field_description:hr_payroll_ci.field_hr_payslip__type
+msgid "Type (Rémunération)"
+msgstr "Type (Rémunération)"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields.selection,name:hr_payroll_ci.selection__hr_payslip__payment_method__virement
+msgid "Virement bancaire"
+msgstr "Virement bancaire"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "ans"
+msgstr "ans"
+
+#. module: hr_payroll_ci
+#: model:ir.model.fields.selection,name:hr_payroll_ci.selection__hr_payslip__option_salaire__heure
+msgid "horaire"
+msgstr "horaire"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_payroll_structure_type
+msgid "hr contract type"
+msgstr "Type de contrat RH"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_payroll_inverse
+msgid "hr payroll inverse"
+msgstr "Calcul inverse RH"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_payroll_inverse_line
+msgid "hr payroll inverse line"
+msgstr "Ligne de calcul inverse RH"
+
+#. module: hr_payroll_ci
+#: model:ir.model,name:hr_payroll_ci.model_hr_payslip_line
+msgid "hr payslip line"
+msgstr "Ligne de fiche de paie RH"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "mois"
+msgstr "mois"
+
+#. module: hr_payroll_ci
+#: model_terms:ir.ui.view,arch_db:hr_payroll_ci.internal_layout
+msgid "par:"
+msgstr "par :"

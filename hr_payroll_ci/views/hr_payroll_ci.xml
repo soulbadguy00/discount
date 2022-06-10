@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="hr_payslip_ci_form_view">
+        <field name="name">hr.payslip.form</field>
+        <field name="model">hr.payslip</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="hr_payroll.view_hr_payslip_form"/>
+        <field name="arch" type="xml">
+            <button name="compute_sheet"  position="after">
+                <button name="%(hr_payroll_ci.action_hr_payroll_calcul_inverse_form_view)d" string="Calcul inverse" type="action" />
+            </button>
+            <field name='name' position="after">
+                <label for="payslip_an_anciennete" string="Ancienneté"/>
+                <div>
+                    <field name="payslip_an_anciennete" class="oe_inline"/>Ans-<field name="payslip_mois_anciennete" class="oe_inline"/>Mois
+                </div>
+            </field>
+            <field name="note" position="after">
+                <group colspan="2">
+                    <group>
+                        <field name="payment_method"/>
+                        <!--<field name="worked_days"/>-->
+                        <field name="type" invisible="1"/>
+                        <field name="department_id" invisible="1"/>
+                        <field name="nature_employe" invisible="1"/>
+                        <field name="cumul_base_impot" invisible="1"/>
+                        <field name="cumul_cn" invisible="1"/>
+                        <field name="cumul_igr" invisible="1"/>
+                        <field name="cumul_worked_days" invisible="0"/>
+                        <field name="number_of_month" invisible="0"/>
+                        <field name="base_daily" />
+                        <field name="brut_imposable" />
+                        <field name="brut_total" />
+                    </group>
+                </group>
+            </field>
+        </field>
+    </record>
+
+</odoo>

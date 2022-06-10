@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_payslip,hr.payslip,model_hr_payslip,base.group_user,1,1,1,1
+access_hr_payroll_inverse,hr.payroll.inverse,model_hr_payroll_inverse,base.group_user,1,1,1,0
+access_hr_payroll_inverse_line,hr.payroll.inverse.line,model_hr_payroll_inverse_line,base.group_user,1,1,1,0
+access_hr_rule_input,hr.rule.input,model_hr_rule_input,base.group_user,1,1,1,0
